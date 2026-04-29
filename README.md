@@ -10,6 +10,7 @@ It is a static landing page that can be launched without a backend.
 - Includes a topic-to-video-angle demo.
 - Routes business owners to checkout and the intake/upload form.
 - Points users to an upload form and payment links you can replace.
+- Uses ReelTwin logo assets from `assets/`.
 
 ## Configure before sharing
 

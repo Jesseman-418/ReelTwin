@@ -67,14 +67,10 @@ a {
   gap: 10px;
 }
 
-.brand-mark {
-  background: var(--ink);
-  border-radius: 8px;
-  color: var(--paper);
-  display: grid;
-  height: 36px;
-  place-items: center;
-  width: 36px;
+.brand img {
+  display: block;
+  height: 38px;
+  width: auto;
 }
 
 .nav {
@@ -495,9 +491,10 @@ textarea {
   padding: 22px clamp(18px, 4vw, 56px);
 }
 
-.footer span:first-child {
-  color: var(--ink);
-  font-weight: 900;
+.footer img {
+  display: block;
+  height: 34px;
+  width: auto;
 }
 
 @media (max-width: 900px) {
