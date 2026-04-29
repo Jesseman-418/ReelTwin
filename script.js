@@ -2,7 +2,7 @@ const CONFIG = {
   businessEmail: "njessemandevamirtham@gmail.com",
   uploadLink: "https://forms.gle/GaKWmYV7HjQxpsnF7",
   paymentLinks: {
-    "Starter Batch": "https://your-store.lemonsqueezy.com/buy/replace-starter",
+    "Starter Batch": "https://reeltwin.lemonsqueezy.com/checkout/buy/95aea06c-5027-4e48-badf-99fc4d61095f",
     "Weekly Owner": "https://your-store.lemonsqueezy.com/buy/replace-weekly",
     "Done For You": "https://your-store.lemonsqueezy.com/buy/replace-monthly",
   },
