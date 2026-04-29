@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ReelTwin - AI short-form videos without filming</title>
+    <meta
+      name="description"
+      content="A concierge MVP for business owners who want ready-to-post AI short-form videos in their own likeness, voice, and style."
+    >
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="ReelTwin home">
+        <span class="brand-mark">RT</span>
+        <span>ReelTwin</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#brief">Start</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Concierge MVP for busy business owners</p>
+          <h1>Send one topic. Get three AI videos of yourself.</h1>
+          <p class="lede">
+            ReelTwin turns your idea, script, or rough voice note into short-form
+            videos in your likeness, ready for LinkedIn, Instagram Reels, TikTok,
+            and YouTube Shorts.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#brief">Create my first batch</a>
+            <a class="button secondary" href="#pricing">See pricing</a>
+          </div>
+          <dl class="proof-points" aria-label="Service highlights">
+            <div>
+              <dt>24h</dt>
+              <dd>first batch delivery</dd>
+            </div>
+            <div>
+              <dt>3</dt>
+              <dd>video versions per topic</dd>
+            </div>
+            <div>
+              <dt>100%</dt>
+              <dd>approval before use</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="reel-stage" aria-label="Example reel preview">
+          <div class="phone-frame">
+            <div class="phone-top">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="avatar-scene">
+              <div class="avatar-image" role="img" aria-label="Stylized business owner video avatar preview"></div>
+              <div class="caption-card">
+                <strong>Hook 01</strong>
+                <span>3 mistakes founders make when posting online</span>
+              </div>
+            </div>
+            <div class="reel-ui">
+              <span class="pill">Voice matched</span>
+              <span class="pill">Captions on</span>
+            </div>
+          </div>
+          <div class="variant-card first">
+            <span>Version A</span>
+            <strong>Educational</strong>
+          </div>
+          <div class="variant-card second">
+            <span>Version B</span>
+            <strong>Story-led</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section steps" id="how">
+        <div class="section-heading">
+          <p class="eyebrow">Simple on purpose</p>
+          <h2>Your first version can run manually.</h2>
+        </div>
+        <div class="step-grid">
+          <article class="step">
+            <span>01</span>
+            <h3>Send your assets</h3>
+            <p>Upload clear face photos, one short video, and an optional voice sample.</p>
+          </article>
+          <article class="step">
+            <span>02</span>
+            <h3>Share a topic</h3>
+            <p>Give us a topic, rough idea, or full script. We turn it into three video angles.</p>
+          </article>
+          <article class="step">
+            <span>03</span>
+            <h3>Approve the batch</h3>
+            <p>You receive download links and only post what feels right for your business.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section generator" aria-labelledby="generator-title">
+        <div>
+          <p class="eyebrow">Try the content angle</p>
+          <h2 id="generator-title">Generate three video directions before you buy.</h2>
+          <p>
+            This demo creates quick positioning ideas. In the paid service, these
+            become scripts, captions, and AI video drafts.
+          </p>
+        </div>
+        <form class="idea-form" id="idea-form">
+          <label for="topic">Your topic</label>
+          <div class="input-row">
+            <input
+              id="topic"
+              name="topic"
+              type="text"
+              placeholder="Example: how coaches can sell without sounding pushy"
+              required
+            >
+            <button class="button primary" type="submit">Generate</button>
+          </div>
+        </form>
+        <div class="idea-results" id="idea-results" aria-live="polite"></div>
+      </section>
+
+      <section class="section pricing" id="pricing">
+        <div class="section-heading">
+          <p class="eyebrow">Charge before generation</p>
+          <h2>Validate demand with simple packages.</h2>
+        </div>
+        <div class="price-grid">
+          <article class="price-card">
+            <h3>Starter Batch</h3>
+            <p class="price">$19</p>
+            <p>Three AI video drafts from one topic.</p>
+            <ul>
+              <li>3 hooks and scripts</li>
+              <li>AI talking-head drafts</li>
+              <li>Captions included</li>
+            </ul>
+            <a class="button secondary" data-plan="Starter Batch" href="#brief">Start with $19</a>
+          </article>
+          <article class="price-card featured">
+            <h3>Weekly Owner</h3>
+            <p class="price">$49</p>
+            <p>Ten short videos from your weekly content ideas.</p>
+            <ul>
+              <li>10 video drafts</li>
+              <li>Hook variations</li>
+              <li>One revision round</li>
+            </ul>
+            <a class="button primary" data-plan="Weekly Owner" href="#brief">Pick weekly</a>
+          </article>
+          <article class="price-card">
+            <h3>Done For You</h3>
+            <p class="price">$149</p>
+            <p>A month of short-form content support.</p>
+            <ul>
+              <li>30 video ideas</li>
+              <li>Content calendar</li>
+              <li>Priority delivery</li>
+            </ul>
+            <a class="button secondary" data-plan="Done For You" href="#brief">Go monthly</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section brief" id="brief">
+        <div class="brief-copy">
+          <p class="eyebrow">Business owner intake</p>
+          <h2>Request your first AI video batch.</h2>
+          <p>
+            This sends a ready-to-edit email brief. Replace the payment and upload
+            links in <code>script.js</code> when you create Paddle/Lemon Squeezy
+            checkout links and a Google Form upload link.
+          </p>
+          <div class="notice">
+            Only upload media you own or have permission to use. ReelTwin drafts
+            are generated after your explicit approval and payment.
+          </div>
+        </div>
+        <form class="brief-form" id="brief-form">
+          <div class="field-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field-group">
+            <label for="niche">Business type</label>
+            <select id="niche" name="niche" required>
+              <option value="">Choose one</option>
+              <option>Coach or consultant</option>
+              <option>Agency owner</option>
+              <option>Real estate business</option>
+              <option>Founder or operator</option>
+              <option>Local service business</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field-group">
+            <label for="plan">Package</label>
+            <select id="plan" name="plan" required>
+              <option>Starter Batch - $19</option>
+              <option>Weekly Owner - $49</option>
+              <option>Done For You - $149</option>
+            </select>
+          </div>
+          <div class="field-group full">
+            <label for="video-topic">Topic or script</label>
+            <textarea
+              id="video-topic"
+              name="video-topic"
+              rows="5"
+              placeholder="Tell us what you want the videos to say."
+              required
+            ></textarea>
+          </div>
+          <label class="consent">
+            <input type="checkbox" required>
+            <span>I confirm I own or have permission to use the likeness, voice, and media I provide.</span>
+          </label>
+          <div class="form-actions">
+            <button class="button primary" type="submit">Prepare my request</button>
+            <a class="button secondary" id="upload-link" href="#" target="_blank" rel="noreferrer">Upload assets</a>
+          </div>
+          <p class="form-note" id="form-note" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>ReelTwin</span>
+      <span>AI business-owner videos, with consent and approval first.</span>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
