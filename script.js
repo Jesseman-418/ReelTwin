@@ -1,5 +1,4 @@
 const CONFIG = {
-  businessEmail: "njessemandevamirtham@gmail.com",
   uploadLink: "https://forms.gle/GaKWmYV7HjQxpsnF7",
   paymentLinks: {
     "Starter Batch": "https://reeltwin.lemonsqueezy.com/checkout/buy/95aea06c-5027-4e48-badf-99fc4d61095f",
@@ -68,28 +67,14 @@ briefForm.addEventListener("submit", (event) => {
   const planName = plan.split(" - ")[0];
   const paymentUrl = CONFIG.paymentLinks[planName] || "#";
 
-  const subject = encodeURIComponent(`New ReelTwin request - ${plan}`);
-  const body = encodeURIComponent(
-    [
-      "New business-owner video request",
-      "",
-      `Name: ${data.get("name")}`,
-      `Email: ${data.get("email")}`,
-      `Business type: ${data.get("niche")}`,
-      `Package: ${plan}`,
-      "",
-      "Topic or script:",
-      data.get("video-topic"),
-      "",
-      `Payment link: ${paymentUrl}`,
-      `Upload link: ${CONFIG.uploadLink}`,
-      "",
-      "Consent confirmed: yes",
-    ].join("\n"),
-  );
+  if (paymentUrl.includes("replace-")) {
+    document.querySelector("#form-note").textContent =
+      "This package is not open yet. Please choose Starter Batch or use the upload button to contact us.";
+    return;
+  }
 
   document.querySelector("#form-note").textContent =
-    "Request prepared. Your email app will open so you can send the brief.";
+    "Opening checkout. After payment, use the upload button or receipt link to submit your assets.";
 
-  window.location.href = `mailto:${CONFIG.businessEmail}?subject=${subject}&body=${body}`;
+  window.location.href = paymentUrl;
 });

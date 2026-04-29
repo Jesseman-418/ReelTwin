@@ -8,14 +8,13 @@ It is a static landing page that can be launched without a backend.
 - Explains the offer: one topic becomes three AI video drafts.
 - Shows simple pricing packages.
 - Includes a topic-to-video-angle demo.
-- Collects a business-owner brief through a mailto flow.
+- Routes business owners to checkout and the intake/upload form.
 - Points users to an upload form and payment links you can replace.
 
 ## Configure before sharing
 
 Open `script.js` and replace:
 
-- `businessEmail`
 - `uploadLink` if you change your Google Form later
 - each Paddle, Lemon Squeezy, or Razorpay International `paymentLinks` URL
 
