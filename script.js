@@ -1,6 +1,6 @@
 const CONFIG = {
   businessEmail: "njessemandevamirtham@gmail.com",
-  uploadLink: "https://forms.gle/replace-this-with-your-google-form",
+  uploadLink: "https://forms.gle/GaKWmYV7HjQxpsnF7",
   paymentLinks: {
     "Starter Batch": "https://your-store.lemonsqueezy.com/buy/replace-starter",
     "Weekly Owner": "https://your-store.lemonsqueezy.com/buy/replace-weekly",

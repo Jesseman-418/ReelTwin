@@ -16,7 +16,7 @@ It is a static landing page that can be launched without a backend.
 Open `script.js` and replace:
 
 - `businessEmail`
-- `uploadLink`
+- `uploadLink` if you change your Google Form later
 - each Paddle, Lemon Squeezy, or Razorpay International `paymentLinks` URL
 
 For a zero-cost setup, create:
